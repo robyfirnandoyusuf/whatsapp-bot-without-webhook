@@ -10,11 +10,11 @@
 # Menjalankan Bot
 
 ### Linux 
-- ketik `php bot.php`
+- Ketik `php bot.php`
 
 ### Windows
-- masukkan dalam folder `/xampp/php`
-- ketik `php bot.php`
+- Masukkan File Dalam Folder `/xampp/php`
+- Ketik `php bot.php`
 
 
 Lebih powerful dirunning di VPS :wink:
