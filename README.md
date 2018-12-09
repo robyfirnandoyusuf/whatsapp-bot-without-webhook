@@ -2,12 +2,12 @@
 :copyright: Nando a.k.a GreyCat - ExploreOurBrain
 
 
-# SETUP
+## SETUP
 - Daftarkan email Anda di [apiwha.com](apiwha.com)
 - Copy **API KEY** yang didapatkan ke dalam variable `$apiKey` pada file bot.php
 - Masukkan no.hp Anda pada variable `$myNumber` pada file bot.php
 
-# Menjalankan Bot
+## Menjalankan Bot
 
 ### Linux 
 - Ketik `php bot.php`
