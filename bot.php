@@ -40,7 +40,7 @@ while (true) {
 	if($lastSender != $myNumber || count($filter) != file_get_contents('db.txt')){
 	$ch = curl_init();
 
-	curl_setopt($ch, CURLOPT_URL, "https://panel.apiwha.com/send_message.php?apikey=".$apikey."&number=".$lastSender."&text=".urlencode($MyText));
+	curl_setopt($ch, CURLOPT_URL, "https://panel.apiwha.com/send_message.php?apikey=".$apiKey."&number=".$lastSender."&text=".urlencode($MyText));
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
 
