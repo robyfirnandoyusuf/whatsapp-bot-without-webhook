@@ -8,6 +8,7 @@ ini_set('date.timezone', 'Asia/Jakarta');
 
 $apiKey 	= "API Key Mu";
 $myNumber 	= "No HP mu";
+$staticText = "Halo saya MattBot, Si Bos saat ini masih tidur silahkan hubungi kembali ketika sudah bangun, Terima Kasih";
 
 ////////////////////////////////
 //////    END CONFIG    ///////
@@ -34,7 +35,7 @@ while (true) {
 			$filter[] = $value['text'];
 		}
 	}
-	$MyText 	 = "Halo saya Bot, Anda mengatakan : " . end($filter);
+	$MyText 	 =  $staticText. end($filter)."\n Pesan dibalas pada :".date('Y-m-d H:i:s');
 
 	if($lastSender != $myNumber || count($filter) != file_get_contents('db.txt')){
 	$ch = curl_init();
