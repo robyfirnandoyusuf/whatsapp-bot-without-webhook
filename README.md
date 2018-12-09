@@ -21,6 +21,5 @@ Lebih powerful dirunning di VPS :wink:
 
 Thanx to :
 - Noval 
-yang bersedia nomornya kena spam :laughing:
 
 NB: sebenarnya saya menemukan bug pada website penyedia API Whatsapp tsb, namun unreported mending dimanfaatin bareng2 :smiley:
