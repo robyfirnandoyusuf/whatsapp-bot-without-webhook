@@ -1,4 +1,9 @@
 <?php
+/**
+* @author Nando a.k.a GreyCat - ExploreOurBrain
+* @category bot
+* @copyright  2018 GreyCat
+**/
 ini_set('date.timezone', 'Asia/Jakarta');
 
 
